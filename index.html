@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Cats</title>
+</head>
+<body>
+    <header><h1>🐈 Cats!</h1></header>
+    <div id="container">
+
+        <div class='container-content-one' id="cat-photo">
+            Here goes the image of the cat.
+        </div>
+
+        <div class='container-content-one' id="cat-details">
+            Here goes the details of the cat.
+        </div>
+
+        <div class='container-content-one' id="cat-search">
+            <form id="search-breed">
+                <label for="field-search-breed">Cat breed: </label>
+                <input type="text" id="field-search-breed" name="Cat-Breed">
+                <input type="button" id="btn-search-submit" value="Search">
+            </form>
+        </div>
+
+        <div class='container-content-one' id="cat-fact">
+            Here goes a fun fact about a cat!
+        </div> 
+
+        <div id="interactive">
+            <button id="refresh">Get a Fact</button>
+
+            <div id="font-adjustment">
+                <button id="size-down">A-</button>
+                <button id="size-reset">Reset</button>
+                <button id="size-up">A+</button>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
